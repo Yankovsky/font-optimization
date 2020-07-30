@@ -1,7 +1,9 @@
 # Оптимизация шрифтов
 
+Before:
 ![Before](before.gif)
 
+After:
 ![After](after.gif)
 
 [Examples](https://yankovsky.github.io/font-optimization/)
