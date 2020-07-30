@@ -98,7 +98,7 @@
 Также, они оба под капотом используют python библиотеку [fonttools](https://github.com/fonttools/fonttools),
 требуют её установки и фактически проксируют к ней запросы, добавляя небольшой функционал.
 
-[Fonttools example](https://yankovsky.github.io/font-optimization/examples/7-fonttools/index.html)
+[Fonttools example](https://yankovsky.github.io/font-optimization/examples/5-fonttools/index.html)
 
 ## Как не пропустить символ при subset'е?
 
