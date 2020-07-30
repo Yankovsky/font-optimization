@@ -32,7 +32,7 @@ After:
 
 [Font display example](https://yankovsky.github.io/font-optimization/examples/2-font-display/index.html)
 
-(MDN)[https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display]
+[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display)
 
 Обычно используются swap или block.
 
