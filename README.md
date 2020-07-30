@@ -1,8 +1,8 @@
 # Оптимизация шрифтов
 
-[Before](http://s.csssr.ru/U02D248T6/2020-07-30-12-57-26-x90vw.mp4)
+![Before](before.gif)
 
-[After](http://s.csssr.ru/U02D248T6/2020-07-30-12-55-28-xta04.mp4)
+![After](after.gif)
 
 [Examples](https://yankovsky.github.io/font-optimization/)
 
