@@ -1,0 +1,46 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+        @font-face {
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(./Comfortaa-Regular-subset.woff2) format('woff2');
+        }
+
+        @font-face {
+            font-family: 'DevOnlyFallback';
+            font-style: normal;
+            font-weight: 400;
+            src: url('./DevOnlyFallback.ttf') format('truetype');
+            font-display: swap;
+        }
+
+        * {
+            font-family: 'Comfortaa', cursive;
+            /*font-family: 'Comfortaa', DevOnlyFallback, cursive;*/
+        }
+	</style>
+</head>
+<body>
+<h1>Hello!</h1>
+<h2>Привет</h2>
+<pre>
+	ëêeŒóòöoô
+	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+	abcdefghijklmnopqrstuvwxyz
+	АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
+	абвгдежзийклмнопрстуфхцчшщъыьэюя
+	0123456789
+	ёЁ
+	​…­  !(),-./:;~«»—₽№&"#$%&'()*+,-./:;<=>?@[\]^_`{|}~‑
+</pre>
+<h3>В этом примере:</h3>
+<ul>
+	<li>демонстрируем что случается, если fallback для missing glyphs нет</li>
+	<li>демонстрируем fallback для missing glyphs</li>
+</ul>
+</body>
+</html>
