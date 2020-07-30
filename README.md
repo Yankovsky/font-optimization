@@ -1,12 +1,15 @@
 # Оптимизация шрифтов
 
+[Before](http://s.csssr.ru/U02D248T6/2020-07-30-12-57-26-x90vw.mp4)
 
-[Examples](./index.html)
+[After](http://s.csssr.ru/U02D248T6/2020-07-30-12-55-28-xta04.mp4)
+
+[Examples](https://yankovsky.github.io/font-optimization/)
 
 
 ## Google Fonts
 
-[Google fonts example](examples/1-google-fonts/index.html)
+[Google fonts example](https://yankovsky.github.io/font-optimization/examples/1-google-fonts/index.html)
 
 * очень легко подключить
 * мы не контролируем, что отдаёт google fonts (формат, определение по ua, subset'ы)
@@ -23,7 +26,7 @@
 
 ## font-display
 
-[Font display example](examples/2-font-display/index.html)
+[Font display example](https://yankovsky.github.io/font-optimization/examples/2-font-display/index.html)
 
 (MDN)[https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display]
 
@@ -33,7 +36,7 @@
 
 ## Локальное размещение шрифтов
 
-[Local fonts example](examples/3-local-fonts/index.html)
+[Local fonts example](https://yankovsky.github.io/font-optimization/examples/3-local-fonts/index.html)
 
 * надо написать css с font-face
 * не забываем про кеширование!
@@ -42,7 +45,7 @@
 
 ## Приоритизация загрузки
 
-[Link preload example](examples/4-link-preload/index.html)
+[Link preload example](https://yankovsky.github.io/font-optimization/examples/4-link-preload/index.html)
 
 ### link preload
 
@@ -95,9 +98,11 @@
 Также, они оба под капотом используют python библиотеку [fonttools](https://github.com/fonttools/fonttools),
 требуют её установки и фактически проксируют к ней запросы, добавляя небольшой функционал.
 
+[Fonttools example](https://yankovsky.github.io/font-optimization/examples/7-fonttools/index.html)
+
 ## Как не пропустить символ при subset'е?
 
-[Fallback example](examples/6-fallback/index.html)
+[Fallback example](https://yankovsky.github.io/font-optimization/examples/6-fallback/index.html)
 
 Не существует браузерного API, которое бы позволяло узнать,
 что какие-то символы не были найдены в загруженном шрифте.
@@ -126,7 +131,7 @@
 
 [CSSSR school](https://font-optimization.new-school-landing.csssr.cloud/ru)
 
-[React компонент](examples/7-our-react-solution/Fonts.jsx)
+[React компонент](https://yankovsky.github.io/font-optimization/examples/7-our-react-solution/Fonts.jsx)
 
 Roboto VF ~= 6 Roboto начертаний
 
